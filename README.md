@@ -14,6 +14,8 @@ Alternatively, download the [skill ZIP](https://github.com/aliparchekan/author-v
 
 ## Try it
 
+Give your agent the **paper folder**, **current manuscript file** and **comments**, then say “Use Author Voice to tune the whole paper.” You can paste comments, attach a reviewer letter or supply an annotated document. The agent returns an edited copy and a comment-by-comment report. For a current PDF, point to its editable source if the project has several versions. [Whole-paper revision workflow](skills/author-voice/references/commented-revision.md)
+
 > Use author-voice to revise a copy of my manuscript for a first-time reader. Keep my terminology, claims, uncertainty, equations and citations. Apply local clarity edits, and show me any proposed major restructuring for approval.
 
 For drafting, supply the figures, captions, tables, result notes and definitions from earlier sections. Ask for the Results in LaTeX with a map from each claim to its evidence. Check descriptions of plotted comparisons against the figure legends.

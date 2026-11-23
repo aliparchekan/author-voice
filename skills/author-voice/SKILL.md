@@ -1,6 +1,6 @@
 ---
 name: author-voice
-description: Draft evidence-grounded academic paper sections, revise manuscripts, or build an author's writing profile from papers before 2024 or documents the author confirms were written without AI.
+description: Tune or rewrite a whole academic manuscript from its project folder, current version and reviewer or author comments. Draft evidence-grounded sections and build a writing profile from pre-2024 papers or documents the author confirms were written without AI.
 ---
 
 # Author voice
@@ -102,6 +102,8 @@ notes before starting the next.
 With profile `none`, skip all exemplar and profile-reading steps. Use the writer’s stated preferences for the prose.
 
 ## revise
+
+When the user supplies a paper folder, a current version and comments, treat them as a request to edit the whole active manuscript. Follow [Revising a manuscript against comments](references/commented-revision.md) alongside the steps below. A request to tune means targeted edits throughout. A request to rewrite allows substantially recasting the prose.
 
 Inputs: the paper as LaTeX (preferred; a PDF loses the math), a profile or
 `none`, and `preferences.md`. In a revision the original text is the evidence:
